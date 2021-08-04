@@ -50,7 +50,7 @@ $editMessage[$message[1];{author:xAstroBot Seguridad:$authorAvatar}
 **[\`!set-logs\`] - [\`Establece el canal donde se enviaran los registros del servidor\`]**
 
 **status : [$replaceText[$replaceText[$checkCondition[$getServerVar[seguridad]!=false];true;$customEmoji[online]];false;$customEmoji[offline]]]**
-**activar : [\`!activar automoderacion\`]**}
+**activar : [\`!activar seguridad\`]**}
 {footer:Lista de comandos seguridad $addTimestamp}{thumbnail:$userAvatar[$clientID]}{color:RANDOM}]`,
     type: 'awaitedCommand'
 }, {
@@ -158,7 +158,7 @@ $deleteMessage[$channelID;$message[1]]`,
 $editMessage[$message[1];{author:xAstroBot:$authorAvatar}
 {description:
 **[1️⃣] - [\`Informacion\`] - [$replaceText[$replaceText[$checkCondition[$getServerVar[informacion]!=false];true;$customEmoji[online]];false;$customEmoji[offline]]]**
-**[2️⃣] - [\`Automoderacion\`] - [$replaceText[$replaceText[$checkCondition[$getServerVar[automoderacion]!=false];true;$customEmoji[online]];false;$customEmoji[offline]]]**
+**[2️⃣] - [\`Automoderacion\`] - [$replaceText[$replaceText[$checkCondition[$getServerVar[seguridad]!=false];true;$customEmoji[online]];false;$customEmoji[offline]]]**
 **[3️⃣] - [\`Establecer\`] - [$replaceText[$replaceText[$checkCondition[$getServerVar[establecer]!=false];true;$customEmoji[online]];false;$customEmoji[offline]]]**
 **[4️⃣] - [\`Configuracion\`] - [$replaceText[$replaceText[$checkCondition[$getServerVar[configuracion]!=false];true;$customEmoji[online]];false;$customEmoji[offline]]]**
 **[5️⃣] - [\`Moderacion\`] - [$replaceText[$replaceText[$checkCondition[$getServerVar[moderacion]!=false];true;$customEmoji[online]];false;$customEmoji[offline]]]**
