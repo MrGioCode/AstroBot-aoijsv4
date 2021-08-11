@@ -7,7 +7,7 @@ prefix: "!",
 })
 
 bot.onMessage();
-bot.loadCommands("./commands/")
+bot.loadCommands("./comandos/")
 bot.onJoined()
 bot.onLeave()
 bot.onMessageUpdate()
