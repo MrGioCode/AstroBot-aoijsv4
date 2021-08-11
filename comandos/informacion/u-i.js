@@ -3,11 +3,16 @@ module.exports = ({
     code: `
 $reply[$messageID;{author:Informacion De Usuario:$userAvatar[$mentioned[1]]}
 {description:
-**Mencion: [<@$mentioned[1]>]**
-**Nombre: [\`$userTag[$mentioned[1]]\`]**
-**Etiqueta: [\`#$discriminator[$mentioned[1]]\`]**
-**ID: [\`$mentioned[1]\`]**
-**Inicio En Discord: [\`$creationDate[$mentioned[1];date]\`]**}
+==> **Informacion Usuario \`$userTag[$mentioned[1]]\`**
+
+**Nombre**
+> \`$username[$mentioned[1]]\`
+**ID**
+> \`$mentioned[1]\`
+**Avatar**
+> [Aqui]($userAvatar[$mentioned[1]])
+**Cuenta Activa Desde**
+> \`$creationDate[$mentioned[1];date]\`}
 {thumbnail:$userAvatar[$mentioned[1]]}
 {color:ORANGE}
 {footer:$userTag $addTimestamp:$authorAvatar};no]
