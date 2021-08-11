@@ -3,19 +3,35 @@ module.exports = ({
     code: `
 $reply[$messageID;{author:Informacion $userTag[$clientID]:$userAvatar[$clientID]}
 {description:
-**Dueño: [\`$userTag[$botOwnerID]\`]**
-**Dueño ID: [\`$botOwnerID\`]**
-**Nombre: [\`$username[$clientID]\`]**
-**Etiqueta: [\`#$discriminator[$clientID]\`]**
-**ID: [\`$clientID\`]**
-**Mi Soporte: [[AQUI](https://discord.gg/kHv3dV3KeW)]**
-**Host: [\`Termux\` - \`Host Local\`]**
-**Servidores y Usuarios: [\`Servidores - $serverCount\`|\`Usuarios - $allMembersCount\`]**
-**Activo Desde: [\`$creationDate[$clientID;time]\`]**
-**Paquetes: [\`Aoi.JS\`|\`Discord.JS\`]**
-**Ram: [\`$ramMB\`/\`-GB\`]**
-**Disk: [\`32MB\`/\`-GB\`]**
-**CPU: [\`$cpu%\`/\`-%\`]**}
+==> **Informacion Sobre El Bot**
+
+**Creador**
+> \`$userTag[$botOwnerID]\`
+**Nombre**
+> \`$userTag[$clientID]\`
+**ID**
+> \`$clientID\`
+**Activo Desde**
+> \`$creationDate[$clientID;time]\`
+**Servidores Y Usuarios**
+> \`$serverCount | $allMembersCount\`
+
+==> **Mas Informacion Sobre El Bot**
+
+**Sistema**
+> \`\`\`Linux\`\`\`
+**OS**
+> \`\`\`Ubuntu 20.04\`\`\`
+**Host**
+> \`\`\`VPS Linux\`\`\`
+**NodeJS**
+> \`\`\`v16.6.1\`\`\`
+**AoiJS**
+> \`\`\`$packageVersion\`\`\`
+**Ram**
+> \`\`\`$ram\`\`\`
+**Cpu**
+> \`\`\`$cpu\`\`\`}
 {thumbnail:$userAvatar[$clientID]}
 {color:YELLOW}
 {footer:$userTag $addTimestamp:$authorAvatar};no]
