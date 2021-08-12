@@ -12,8 +12,7 @@ module.exports = [{
   $onlyForIds[$ownerID;<:cross_red:856744445395206144> | Solo el propietario del servidor]
   $endelseIf
   $endif
-$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]
-$onlyIf[$getServerVar[seguridad]==true;<:cross_red:856744445395206144> | La categoria \`seguridad\` no esta activada. Uso: !activar seguridad]`
+$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]`
 }, {
   channel: "$randomChannelID",
   code: `
