@@ -8,8 +8,7 @@ $cooldown[10s;<:info:852306506280206386> | Tranquil@ vas muy rapido]
 $onlyPerms[managechannels;<:cross_red:856744445395206144> | No cuentas con el permiso necesario]
 $onlyBotPerms[managechannels;<:cross_red:856744445395206144> | No cuento con el permiso necesario]
 $suppressErrors[<:cross_red:856744445395206144> | Error inesperado :/, revisa permisos]
-$cooldown[3s;<:cross_red:824001307001487370> | Tranquilo...]
-$onlyIf[$getServerVar[configuracion]==true;<:cross_red:856744445395206144> | La categoria \`configuracion\` no esta activada. Uso: !activar configuracion]`
+$cooldown[3s;<:cross_red:824001307001487370> | Tranquilo...]`
 }, {
     name: "clonech1",
 	code: `
