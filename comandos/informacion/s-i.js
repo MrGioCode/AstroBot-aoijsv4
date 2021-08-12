@@ -21,6 +21,5 @@ $reply[$messageID;{author:Informacion De Servidor:$authorAvatar}
 > $guildRoles[mention]}
 {color:ORANGE}
 {footer:$userTag $addTimestamp:$authorAvatar};no]
-$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]
-$onlyIf[$getServerVar[informacion]==true;<:cross_red:856744445395206144> | Los comandos \`informativos\` no estan activados. Usa: !activar informacion]`
+$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]`
 })
