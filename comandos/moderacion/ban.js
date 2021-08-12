@@ -14,6 +14,5 @@ $endif
 $onlyIf[$isBanned[$findUser[$message[1]]]==false;<:cross_red:856744445395206144>  | El usuario ya fue baneado anteriormente]
 $onlyIf[$message!=;<:cross_red:856744445395206144> | No haz mencionado al usuario que deseas banear]
 $onlyPerms[ban;<:cross_red:856744445395206144> | No cuentas con los permisos necesarios]
-$onlyBotPerms[ban;<:cross_red:856744445395206144> | No cuento con el permiso necesario]
-$onlyIf[$getServerVar[moderacion]==true;<:cross_red:856744445395206144> | Los comandos \`moderacion\` no estan activados. Usa: !activar moderacion]`
+$onlyBotPerms[ban;<:cross_red:856744445395206144> | No cuento con el permiso necesario]`
 })
