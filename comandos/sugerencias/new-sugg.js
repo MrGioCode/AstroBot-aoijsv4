@@ -14,6 +14,5 @@ $useChannel[$getServerVar[suggch]]
 $channelSendMessage[$channelID;<:tick:856950258219352075> | Sugerencia enviada con exito!. status: \`pendiente\`]
 $setServerVar[suggnum;$sum[$getServerVar[suggnum];1]]
 $onlyIf[$serverChannelExists[$getServerVar[suggch]]==true;<:cross_red:856744445395206144> | No hay canal establecido]
-$cooldown[1m;<:cross_red:856744445395206144> | Tranquil@... \`%time%\`]
-$onlyIf[$getServerVar[sugerencias]==true;<:cross_red:856744445395206144> | La categoria \`sugerencias\` no esta activada. Uso: !activar sugerencias]`
+$cooldown[1m;<:cross_red:856744445395206144> | Tranquil@... \`%time%\`]`
 })
