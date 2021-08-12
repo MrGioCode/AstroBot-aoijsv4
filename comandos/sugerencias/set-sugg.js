@@ -7,6 +7,5 @@ $onlyIf[$channelType[$mentionedChannels[1]]==text;<:cross_red:856744445395206144
 $onlyif[$serverChannelExists[$mentinedChannels[1]]==false;<:cross_red:856744445395206144> | ID de canal invalida]
 $argsCheck[>1;<:cross_red:856744445395206144> | ID no porporcionado]
 $onlyPerms[manageserver;<:cross_red:856744445395206144> | No cuentas con el permiso necesario]
-$cooldown[3s;<:cross_red:856744445395206144> | Tranquil@...]
-$onlyIf[$getServerVar[sugerencias]==true;<:cross_red:856744445395206144> | La categoria \`sugerencias\` no esta activada. Uso: !activar sugerencias]`
+$cooldown[3s;<:cross_red:856744445395206144> | Tranquil@...]`
 })
