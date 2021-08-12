@@ -35,6 +35,5 @@ $reply[$messageID;{author:Informacion $userTag[$clientID]:$userAvatar[$clientID]
 {thumbnail:$userAvatar[$clientID]}
 {color:YELLOW}
 {footer:$userTag $addTimestamp:$authorAvatar};no]
-$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]
-$onlyIf[$getServerVar[informacion]==true;<:cross_red:856744445395206144> | Los comandos \`informativos\` no estan activados. Usa !activar informacion]`
+$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]`
 })
