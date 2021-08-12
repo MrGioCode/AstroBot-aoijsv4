@@ -16,6 +16,5 @@ $description[
 **4️⃣ :: \`{members_count}\` - Muestra la cantidad de miembros en tu servidor.**]
 $footer[$userTag $addTimestamp;$authorAvatar]
 $color[GREEN]
-$cooldown[3s;<:cross_red:856744445395206144> | Tranquil@...]
-$onlyIf[$getServerVar[bienvenidas]==true;<:cross_red:856744445395206144> | La categoria \`bienvenidas\` no esta activada. Uso: !activar bienvenidas]`
+$cooldown[3s;<:cross_red:856744445395206144> | Tranquil@...]`
 })
