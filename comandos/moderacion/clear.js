@@ -11,6 +11,5 @@ $onlyIf[$isNumber[$message]==true;<:cross_red:856744445395206144> | Numero no pr
 $argsCheck[>1;<:cross_red:856744445395206144> | No haz colocado un numero de mensajes]
 $onlyPerms[managechannels;<:cross_red:856744445395206144> | No cuentas con los permisos necesarios]
 $onlyBotPerms[managechannels;<:cross_red:856744445395206144> | No cuento con los permisos necesarios]
-$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]
-$onlyIf[$getServerVar[moderacion]==true;<:cross_red:856744445395206144> | Los comandos \`moderacion\` no estan activados. Usa: !activar moderacion]`
+$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]`
 });
