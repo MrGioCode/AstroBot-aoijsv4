@@ -16,6 +16,5 @@ $description[
 **4️⃣ :: \`{members_count}\` - Muestra la cantidad de miembros en tu servidor.**]
 $footer[$userTag $addTimestamp;$authorAvatar]
 $color[GREEN]
-$cooldown[3s;<:cross_red:856744445395206144> | Tranquil@...]
-$onlyIf[$getServerVar[despedidas]==true;<:cross_red:856744445395206144> | La categoria \`despedidas\` no esta activada. Uso: !activar despedidas]`
+$cooldown[3s;<:cross_red:856744445395206144> | Tranquil@...]`
 })
