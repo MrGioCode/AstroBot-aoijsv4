@@ -9,6 +9,5 @@ $onlyIf[$findUser[$message[1]]!=$ownerID;<:cross_red:856744445395206144> | ID no
 $onlyIf[$isBanned[$findUser[$message[1]]]==true;<:cross_red:856744445395206144> | ID no encontrada en la banlist]
 $argsCheck[>1;<:cross_red:856744445395206144> | Menciona al usuario que deseas desbanear]
 $onlyPerms[ban;<:cross_red:856744445395206144> | No cuentas con los permisos necesarios]
-$onlyBotPerms[ban;<:cross_red:856744445395206144> | No cuento con el permiso necesario]
-$onlyIf[$getServerVar[moderacion]==true;<:cross_red:856744445395206144> | Los comandos \`moderacion\` no estan activados. Usa: !activar moderacion]`
+$onlyBotPerms[ban;<:cross_red:856744445395206144> | No cuento con el permiso necesario]`
 })
