@@ -14,6 +14,5 @@ $onlyIf[$rolePosition[$highestRole[$clientID]]<$rolePosition[$highestRole[$findU
   $suppressErrors[<:cross_red:856744445395206144> | Error al intentar remover un rol]
   $onlyPerms[manageroles;<:cross_red:856744445395206144> | No cuentas con los permisos necesarios]
 $onlyBotPerms[manageroles;<:cross_red:856744445395206144> | No cuento con el permiso necesario]
-$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]
-$onlyIf[$getServerVar[moderacion]==true;<:cross_red:856744445395206144> | Los comandos \`moderacion\` no estan activados. Usa: !activar moderacion]`
+$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]`
 })
