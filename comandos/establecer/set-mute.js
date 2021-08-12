@@ -8,8 +8,7 @@ module.exports = [{
   $argsCheck[>1;<:cross_red:856744445395206144> | Menciona el rol que deseas establecer]
   $onlyIf[$roleExists[$mentionedRoles[1]]==true;<:cross_red:856744445395206144> | ID del rol invalido]
   $onlyPerms[manageroles;<:cross_red:856744445395206144> | No cuentas con el permiso necesarios]
-$onlyBotPerms[manageserver;<:cross_red:856744445395206144> | No cuento con los permisos necesarios]
-$onlyIf[$getServerVar[establecer]==true;<:cross_red:856744445395206144> | La categoria \`establecer\` no esta activada. Uso: !activar establecer]`
+$onlyBotPerms[manageserver;<:cross_red:856744445395206144> | No cuento con los permisos necesarios]`
 }, {
     name: "setmute",
     code: `
