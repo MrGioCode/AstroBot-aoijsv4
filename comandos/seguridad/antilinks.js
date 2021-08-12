@@ -12,8 +12,7 @@ module.exports = [{
   $onlyPerms[admin;<:cross_red:856744445395206144> | No cuentas con el permiso suficiente]
   $endelseIf
   $endif
-$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]
-$onlyIf[$getServerVar[seguridad]==true;<:cross_red:856744445395206144> | La categoria \`seguridad\` no esta activada. Uso: !activar seguridad]`
+$cooldown[3s;<:cross_red:856744445395206144> | Tranquilo...]`
 }, {
   name: "$alwaysExecute",
   code: `
