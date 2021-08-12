@@ -12,6 +12,5 @@ $onlyIf[$memberExists[$mentioned[1]]==true;<:cross_red:856744445395206144> | ID 
 $argsCheck[>1;<:cross_red:856744445395206144> | Usuario no proporcionado]
 $onlyPerms[manageroles;<:cross_red:856744445395206144> | No cuentas con el permiso necesario]
 $onlyBotPerms[manageroles;<:cross_red:856744445395206144> | No cuento con los permisos necesarios]
-$cooldown[3s;<:cross_red:824001307001487370> | Tranquilo...]
-$onlyIf[$getServerVar[configuracion]==true;<:cross_red:856744445395206144> | La categoria \`configuracion\` no esta activada. Uso: !activar configuracion]`
+$cooldown[3s;<:cross_red:824001307001487370> | Tranquilo...]`
 })
