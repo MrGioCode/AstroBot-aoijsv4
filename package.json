@@ -3,15 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
-    "aoi.js": "^4.4.4",
-    "dotenv": "^10.0.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "html-webpack-plugin": "^5.3.2",
-    "morgan": "^1.10.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
+    "aoi.js": "^4.4.4"
   },
   "scripts": {
     "dev": "node server.js",

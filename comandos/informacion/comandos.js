@@ -20,6 +20,8 @@ $description[
 > __!cmd \`dpd\`__
 **Sugerencias**
 > __!cmd \`sug\`__
+**Verificacion**
+> __!cmd \`vfy\`__
 
 <:link:856765531382218772> | [invitacion](https://discord.com/api/oauth2/authorize?client_id=864965981290102784&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2FkHv3dV3KeW&scope=bot) | [soporte](https://discord.gg/mKQGB6Q2VP) |]
 $footer[Lista de categorias $addTimestamp;$authorAvatar]
@@ -35,6 +37,8 @@ $color[WHITE]`
    > __!s-i__
    **botinfo**
    > __!b-i__
+   **channelinfo**
+   > __!ch-i__
    **userinfo**
    > __!u-i__
    **roleinfo**
@@ -161,6 +165,11 @@ $color[WHITE]`
    > __!new-sugg \`[texto]\`__
    **Establecer Canal**
    > __!set-sugg \`[#canal]\`__]
+
+   $if[$message[1]==vfy]
+   $author[xAstroBot Sistema De Verificacion;$authorAvatar]
+   $description[En Desarrollo...]
+
    $thumbnail[$userAvatar[$clientID]]
    $footer[$userTag $addTimestamp;$authorAvatar]
    $color[BLUE]

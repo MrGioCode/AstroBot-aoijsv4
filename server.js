@@ -21,14 +21,12 @@ bot.onRoleCreate()
 
 //variables
 bot.variables({
-    informacion: "false",
-    seguridad: "false",
-    establecer: "false",
-    configuracion: "false",
-    moderacion: "false",
-    bienvenidas: "false",
-    despedidas: "false",
-    sugerencias: "false",
+    //verify system
+    verifych: "",
+    verifynum: "0",
+    verifycode: "",
+    noverify: "",
+    siverify: "",
     //seguridad
     antiban: "off",
     antichannel: "off",
