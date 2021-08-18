@@ -167,6 +167,10 @@ $color[WHITE]`
    > __!new-sugg \`[texto]\`__
    **Establecer Canal**
    > __!set-sugg \`[#canal]\`__]
+   $thumbnail[$userAvatar[$clientID]]
+   $footer[$userTag $addTimestamp;$authorAvatar]
+   $color[BLUE]
+   $endif
 
    $if[$message[1]==vfy]
    $author[xAstroBot Sistema De Verificacion;$authorAvatar]
