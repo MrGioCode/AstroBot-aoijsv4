@@ -44,7 +44,9 @@ $color[WHITE]`
    **roleinfo**
    > __!r-i__
    **ping**
-   > __!latencia__]
+   > __!latencia__
+   **hostinfo**
+   > __!host__]
    $thumbnail[$userAvatar[$clientID]]
    $footer[$userTag $addTimestamp;$authorAvatar]
    $color[BLUE]
@@ -168,8 +170,15 @@ $color[WHITE]`
 
    $if[$message[1]==vfy]
    $author[xAstroBot Sistema De Verificacion;$authorAvatar]
-   $description[En Desarrollo...]
-
+   $description[
+   **Establecer Canal**
+   > __!set-verifych \`[#canal]\`__
+   **Establecer Rol Verificado**
+   > __!set-siverify \`[@role]\`__
+   **Establecer Codigo De Verificacion**
+   > __!set-verifycode \`[texto]\`__
+   **Verificar**
+   > __!verify \`[codigo]\`__]
    $thumbnail[$userAvatar[$clientID]]
    $footer[$userTag $addTimestamp;$authorAvatar]
    $color[BLUE]

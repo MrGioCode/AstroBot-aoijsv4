@@ -25,7 +25,6 @@ bot.variables({
     verifych: "",
     verifynum: "0",
     verifycode: "",
-    noverify: "",
     siverify: "",
     //seguridad
     antiban: "off",
