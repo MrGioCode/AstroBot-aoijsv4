@@ -51,6 +51,9 @@ bot.variables({
     //sugerencias
     suggnum: "0",
     suggch: "",
+    //encuestas
+    pollsch: "",
+    pollsnum: "0",
     //Registros
     logsch: "",
     logsnum: "",
@@ -62,7 +65,7 @@ bot.variables({
 
 
 bot.status({
-    text: "En v2.0 beta!",
+    text: "moderando $serverCount servidores!.",
     type: "STREAMING",
     time: 12
 })

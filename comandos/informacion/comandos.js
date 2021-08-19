@@ -22,6 +22,9 @@ $description[
 > ❓ | **Sugerencias**
 \`set-sugg\`, \`new-sugg\`, \`acc-sugg\`, \`den-sugg\`.
 
+> 📊 | **Encuestas**
+\`set-polls\`, \`new-poll\`, \`del-poll\`.
+
 > 👋 | **Bienvenidas Y Despedidas**
 \`guia-bienvenidas\`, \`set-bienvenidas\`, \`set-msgbienvenidas\`, \`guia-despedidas\`, \`set-despedidas\`, \`set-msgdespedidas\`.
 
