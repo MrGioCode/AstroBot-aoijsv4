@@ -1,7 +1,7 @@
 module.exports = ({
     name: "mute",
     code: `
-<:tick:856950258219352075> | \`$userTag[$findUser[$message[1]]]\` silenciado correctamente
+<:tick:856950258219352075> | \`$userTag[$findUser[$message[1]]]\` silenciado correctamente!
   $giveRoles[$findUser[$message[1]];$getServerVar[muterole]]
   $onlyIf[$rolePosition[$highestRole[$authorID]]<$rolePosition[$highestRole[$findUser[$message[1]]]];<:cross_red:856744445395206144> | Tienes un rol abajo o igual al mencionado]
 $onlyIf[$rolePosition[$highestRole[$clientID]]<$rolePosition[$highestRole[$findUser[$message[1]]]];<:cross_red:856744445395206144> | Tengo un rol menor o igual al mencionado]

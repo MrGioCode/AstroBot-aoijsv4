@@ -1,7 +1,7 @@
 module.exports = ({
   name: "lock",
   code: `
-<:tick:856950258219352075> | \`$channelName[$channelID]\` Bloqueado correctamente
+<:tick:856950258219352075> | \`$channelName[$channelID]\` Bloqueado correctamente!
 $modifyChannelPerms[$channelID;-sendmessages;$guildID]
 $onlyPerms[managechannels;<:cross_red:856744445395206144> | No cuentas con los permisos necesarios]
 $onlyBotPerms[managechannels;<:cross_red:856744445395206144> | No cuento con los permisos necesarios]

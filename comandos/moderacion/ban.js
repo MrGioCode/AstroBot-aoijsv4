@@ -1,6 +1,6 @@
 module.exports = ({
  name: "ban",
- code: `<:tick:856950258219352075> | \`$userTag[$findUser[$message[1]]]\` baneado correctamente
+ code: `<:tick:856950258219352075> | \`$userTag[$findUser[$message[1]]]\` baneado correctamente!
 $ban[$findUser[$message[1]];$replaceText[$replaceText[$checkCondition[$messageSlice[1]==];true;No se proporcionó una razón.];false;$messageSlice[1]];7]
 $if[$memberExists[$findUser[$message[1]]]==true]
 $onlyIf[$rolePosition[$highestRole[$findUser[$message[1]]]]>$rolePosition[$highestRole];<:cross_red:856744445395206144>  | Tienes un rol abajo o el mismo al mencionado]

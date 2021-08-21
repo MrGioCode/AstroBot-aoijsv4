@@ -2,7 +2,7 @@ module.exports = ({
 name: "clear",
 aliases: ['purge'],
 code: `
-<:tick:856950258219352075> | He eliminado \`$clear[$message[1];everyone;$channelID;yes] mensajes\`
+<:tick:856950258219352075> | He eliminado \`$clear[$message[1];everyone;$channelID;yes] mensajes\`!
 $deleteIn[2s]
 $wait[200]
 $deletecommand
