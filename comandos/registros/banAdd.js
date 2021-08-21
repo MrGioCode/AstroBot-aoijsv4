@@ -13,7 +13,7 @@ module.exports = ({
     > \`\`\`$getBanReason[$authorID;$guildID]\`\`\`]
     $thumbnail[$authorAvatar]
     $footer[$userTag[$getAuditLogs[1;everyone;MEMBER_BAN_ADD;$guildID;{executor.id}]] $addTimestamp]
-    $color[RED]
+    $color[GREEN]
     $setServerVar[logsnum;$sum[$getServerVar[logsnum];1]]
     $onlyIf[$serverChannelExists[$getServerVar[logsvh]]==true;]`,
   type: 'banAddCommand'
