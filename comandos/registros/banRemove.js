@@ -13,6 +13,6 @@ module.exports = ({
     $footer[$userTag[$getAuditLogs[1;everyone;MEMBER_BAN_REMOVE;$guildID;{executor.id}]] $addTimestamp]
     $color[RED]
     $setServerVar[logsnum;$sum[$getServerVar[logsnum];1]]
-    $onlyIf[$serverChannelExists[$getServerVar[logsvh]]==true;]`,
+    $onlyIf[$serverChannelExists[$getServerVar[logsch]]==true;]`,
   type: 'banRemoveCommand'
 })
