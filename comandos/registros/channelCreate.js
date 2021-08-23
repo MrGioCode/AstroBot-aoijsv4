@@ -15,6 +15,6 @@ $thumbnail[$userAvatar[$getAuditLogs[1;everyone;CHANNEL_CREATE;$guildID;{executo
 $footer[$userTag[$getAuditLogs[1;everyone;CHANNEL_CREATE;$guildID;{executor.id}]] $addTimestamp]
 $color[GREEN]
 $setServerVar[logsnum;$sum[$getServerVar[logsnum];1]]
-$onlyIf[$serverChannelExists[$getServerVar[logsvh]]==true;]`,
+$onlyIf[$serverChannelExists[$getServerVar[logsch]]==true;]`,
   type: 'channelCreateCommand'
 })
