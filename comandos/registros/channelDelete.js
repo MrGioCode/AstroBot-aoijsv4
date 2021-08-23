@@ -1,5 +1,5 @@
 module.exports = ({
-    name: "",
+    channel: "$getServerVar[logsch]",
     code: `
 $author[Canal Borrado]
 $description[
@@ -14,5 +14,6 @@ $description[
 $color[RED]
 $footer[$serverName $addTimestamp]
 $setServerVar[logsnum;$sum[$getServerVar[logsnum];1]]
-$onlyIf[$serverChannelExists[$getServerVar[logsvh]]==true;]`
+$onlyIf[$serverChannelExists[$getServerVar[logsch]]==true;]`,
+    type: 'channelDelete'
 })
