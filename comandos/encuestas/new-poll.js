@@ -12,6 +12,7 @@ $description[
 $thumbnail[$authorAvatar]
 $footer[A Votar! $addTimestamp;$authorAvatar]
 $color[YELLOW]
+$image[https://media.discordapp.net/attachments/876204943613235250/879531335973216276/20210823_175955.jpg]
 $useChannel[$getServerVar[pollsch]]
 $textSplit[$message; | ]
 $setServerVar[pollsnum;$sum[$getServerVar[pollsnum];1]]

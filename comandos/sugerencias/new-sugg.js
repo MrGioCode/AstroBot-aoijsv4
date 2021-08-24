@@ -10,6 +10,7 @@ $description[
 **sug:** $message]
 $footer[Sugerencia Pendiente...;$authorAvatar]
 $color[YELLOW]
+$image[https://media.discordapp.net/attachments/876204943613235250/879531335973216276/20210823_175955.jpg]
 $useChannel[$getServerVar[suggch]]
 $channelSendMessage[$channelID;<:tick:856950258219352075> | Sugerencia enviada con exito!. status: \`pendiente\`]
 $setServerVar[suggnum;$sum[$getServerVar[suggnum];1]]
