@@ -6,7 +6,7 @@ module.exports = ({
     ==> **Host xAstroBot Informacion**
 
     **Alojamiento**
-    > [Railway](https://railway.app)
+    > [Heroku](https://heroku.com)
     **Latencia**
     > \`\`\`$pingms\`\`\`
     **Latencia DB**

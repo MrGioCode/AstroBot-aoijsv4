@@ -23,7 +23,7 @@ $reply[$messageID;{author:Informacion $userTag[$clientID]:$userAvatar[$clientID]
 **OS**
 > \`\`\`Ubuntu 20.04\`\`\`
 **Host**
-> \`\`\`Railway\`\`\`
+> \`\`\`Heroku\`\`\`
 **NodeJS**
 > \`\`\`v16.6.1\`\`\`
 **AoiJS**
