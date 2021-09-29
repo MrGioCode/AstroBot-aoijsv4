@@ -6,7 +6,7 @@ $description[
 **Pregunta**
 > $message
 **Respuesta**
-> \`$randomText[si;no;si.;no.;que;bruh;nose;.;brutal;si hazlo;no lo hagas;pero;no me interesa]\`]
+> \`$randomText[si;no;si.;no.;que;bruh;nose;.;brutal;no lo hagas;pero;no me interesa]\`]
 $footer[$userTag[$authorID];$authorAvatar]
 $color[BLUE]
 $onlyIf[$charCount[$message]<20;<:cross_red:856744445395206144> | Maximo \`10\` caracteres]

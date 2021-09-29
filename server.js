@@ -57,6 +57,8 @@ bot.variables({
     //Registros
     logsch: "",
     logsnum: "",
+    //Confesiones
+    confesiones: "",
     //blacklist 
     blackl: "",
     blacklrazon: "No-Proporcionada",
