@@ -25,7 +25,7 @@ $reply[$messageID;{author:Informacion $userTag[$clientID]:$userAvatar[$clientID]
 **Host**
 > \`\`\`Heroku\`\`\`
 **NodeJS**
-> \`\`\`v16.6.1\`\`\`
+> \`\`\`v16.10.1\`\`\`
 **AoiJS**
 > \`\`\`$packageVersion\`\`\`
 **Ram**
