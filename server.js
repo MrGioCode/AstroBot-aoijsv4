@@ -1,6 +1,6 @@
 const Aoijs = require("aoi.js")
 const bot = new Aoijs.Bot({
-token: "ODY0OTY1OTgxMjkwMTAyNzg0.YO9IWA.i2I_YOelaCpJPj52VbU-surrs_M",
+token: "token-aqui",
 prefix: "!",
     applicationCache: false,
     suppressAll: false
